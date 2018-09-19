@@ -78,6 +78,7 @@ class EventList extends Component {
 			return (
 					<Router> 
 						<div>
+							<h2> Events </h2>
 							<ul>
 								{events.map(e => (
 									<li key={e.id}>
