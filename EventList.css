@@ -1,0 +1,28 @@
+.EventList {
+  text-align: center;
+}
+
+.EventList-logo {
+  animation: EventList-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.EventList-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.EventList-title {
+  font-size: 1.5em;
+}
+
+.EventList-intro {
+  font-size: large;
+}
+
+@keyframes EventList-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
